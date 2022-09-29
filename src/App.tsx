@@ -53,7 +53,7 @@ export default function App() {
                 <h1 className="mb-4">Teste Simix</h1>
                 <button onClick={getNumbers} className='btn btn-primary shadow'>mostrar</button><hr />
                 {table}
-                <a href='https://github.com/msofteng/simix-test' className='mt-3 mb-3' data-bs-toggle="tooltip" data-bs-title="GitHub (Repositório)"><img src="https://img.icons8.com/ios-filled/30/000000/github.png"/></a>
+                <a href='https://github.com/msofteng/simix-test' className='mt-3 mb-3' data-bs-toggle="tooltip" data-bs-title="GitHub (Repositório)"><img alt='github' src="https://img.icons8.com/ios-filled/30/000000/github.png"/></a>
             </div>
         </div>
     );
